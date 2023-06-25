@@ -1,0 +1,116 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.Card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.CardHeader {
+  background-color: #007bff; /* Blue background color */
+  padding: 16px;
+  border-radius: 4px 4px 0 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.CardHeader h1 {
+  margin: 0;
+  color: #fff; /* Text color for the heading */
+}
+
+.CardBody {
+  padding: 16px;
+}
+
+.Chat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.Message {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.Username {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.Content {
+  margin-right: 8px;
+}
+
+.LikeButton {
+  background-color: #a4ccf7; /* Blue background color */
+  border: 1px solid #007bff; /* Blue border color */
+  padding: 4px 8px;
+  cursor: pointer;
+  color: #fff; /* Text color for the button */
+  transition: background-color 0.3s ease-in-out; /* Transition animation */
+}
+
+.LikeButton:hover {
+  background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.LikeButton:focus {
+  outline: none;
+}
+
+.LikeButton:active {
+  background-color: #003080; /* Even darker blue color when clicked */
+}
+
+.Input {
+  display: flex;
+  align-items: center;
+}
+
+.Input input {
+  width: 300px;
+  height: 32px;
+  margin-right: 8px;
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+
+.Input button {
+  background-color: #468faf; /* Button background color */
+  border: none;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  color: #fff; /* Text color for the button */
+  transition: background-color 0.3s ease-in-out; /* Transition animation */
+}
+
+.Input button:hover {
+  background-color: #3c7c9e; /* Darker blue color on hover */
+}
+
+.Input button:focus {
+  outline: none;
+}
+
+.Input button:active {
+  background-color: #2e6282; /* Even darker blue color when clicked */
+}
